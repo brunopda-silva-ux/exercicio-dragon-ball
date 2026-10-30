@@ -1,0 +1,13 @@
+### Consultar todos os personagens
+GET http://localhost:3000/personagens
+
+### Cadastrar um personagem
+POST http://localhost:3000/personagens
+Content-Type: application/json
+
+{
+  "nome": "Piccolo",
+  "ki": 6000,
+  "imagem": "https://placehold.co/300x180?text=Piccolo",
+  "idade": 27
+}
